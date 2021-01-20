@@ -3,7 +3,7 @@ import { Link } from'react-router-dom';
 import Movie from "./Movie";
 
 const FEATURED_API =
-  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=23bffabfa709b9579baf869e0d369bc3&page=";
+  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=23bffabfa709b9579baf869e0d369bc3&page=1";
 
 const SEARCH_API =
   "https://api.themoviedb.org/3/search/movie?&api_key=23bffabfa709b9579baf869e0d369bc3&query=";
@@ -36,7 +36,7 @@ function AllMovies() {
     <>
       <header>
         <h1>
-          <Link className="link" to="/"><i className="fas fa-video icon"></i> Movie Flex</Link>
+          <Link className="link" to="/movie-flex"><i className="fas fa-video icon"></i> Movie Flex</Link>
         </h1>
         <form onSubmit={handleSubmit}>
           <input

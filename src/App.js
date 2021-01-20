@@ -8,7 +8,7 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path="/" exact>
+          <Route path="/movie-flex" exact>
             <AllMovies />
           </Route>
         </Switch>
