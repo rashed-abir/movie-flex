@@ -30,7 +30,6 @@ function AllMovies() {
     fetch(endpoint)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setPage(data.page);
         setMovies(data.results);
       });

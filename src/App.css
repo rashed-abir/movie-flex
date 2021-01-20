@@ -83,6 +83,7 @@ header h1 {
 
 footer{
   background-color: #373b69;
+  text-align: center;
 }
 
 .page-button{
@@ -134,6 +135,18 @@ footer{
   color: white;
 }
 
+.movie-info{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+.item{
+  padding: 10px;
+  border: 1px solid #373b69;
+}
+
 .tag{
   background-color: #22254b;
   padding: 0.5rem;
@@ -158,6 +171,10 @@ footer{
   }
   .link{
     font-size: 1.5rem;
+  }
+  .movie-info{
+    margin-bottom: 10px;
+
   }
 }
 
