@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AllMovies from "./component/AllMovies";
 
 function App() {
   return (
-    <div>
+    <Suspense fallback={(<div>Loading...</div>)}>
       <Router>
         <Switch>
           <Route path="/movie-flex" exact>
@@ -13,7 +13,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </div>
+    </Suspense>
   );
 }
 
