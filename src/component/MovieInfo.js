@@ -5,7 +5,7 @@ function MovieInfo(props) {
   const { movie } = props;
 
   return (
-    <div className="movie-info" >
+    <div className="movies-info" >
       <Descriptions title="Movie Info" bordered style={{padding:"5px", marginBottom:"5px"}} >
         <Descriptions.Item label="Title" className="item" >
           {movie.original_title}

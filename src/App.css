@@ -135,7 +135,10 @@ footer{
   color: white;
 }
 
-.movie-info{
+.movies-info{
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
   text-align: center;
   justify-content: center;
   width: 100%;
