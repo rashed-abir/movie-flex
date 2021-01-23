@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import MainImage from "./MainImage";
-import MovieInfo from './MovieInfo';
+import MovieInfo from "./MovieInfo";
 
 const IMAGE_BASE_URL = "http://image.tmdb.org/t/p/";
 const IMAGE_SIZE = "w1280";
@@ -8,15 +9,15 @@ const IMAGE_SIZE = "w1280";
 // const FEATURED_API =
 //   "https://api.themoviedb.org/3/movie/464052?api_key=23bffabfa709b9579baf869e0d369bc3";
 
-function MovieDetails(props) {
-//   const id = props.match.params.movieId;
+function MovieDetails() {
+  let { id } = useParams();
   const [movies, setMovies] = useState([]);
   const [LoadingForMovie, setLoadingForMovie] = useState(true);
 
   useEffect(() => {
-    let endpointForMovieInfo = `https://api.themoviedb.org/3/movie/464052?api_key=23bffabfa709b9579baf869e0d369bc3`;
+    let endpointForMovieInfo = `https://api.themoviedb.org/3/movie/${id}?api_key=23bffabfa709b9579baf869e0d369bc3`;
     fetchDetailInfo(endpointForMovieInfo);
-  }, []);
+  }, [id]);
 
   const fetchDetailInfo = (endpoint) => {
     fetch(endpoint)

@@ -12,7 +12,7 @@ function App() {
           <Route path="/movie-flex" exact>
             <AllMovies />
           </Route>
-          <Route path="/movie/:id" exact component={MovieDetails} />
+          <Route path="/movie/:id" exact="true" component={MovieDetails} />
         </Switch>
       </Router>
       </Suspense>
