@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/movie-flex/static/css/main.4c17e6ed.chunk.css",
-    "main.js": "/movie-flex/static/js/main.eda9a95b.chunk.js",
-    "main.js.map": "/movie-flex/static/js/main.eda9a95b.chunk.js.map",
+    "main.css": "/movie-flex/static/css/main.d4f08fcd.chunk.css",
+    "main.js": "/movie-flex/static/js/main.a0337720.chunk.js",
+    "main.js.map": "/movie-flex/static/js/main.a0337720.chunk.js.map",
     "runtime-main.js": "/movie-flex/static/js/runtime-main.cd711a97.js",
     "runtime-main.js.map": "/movie-flex/static/js/runtime-main.cd711a97.js.map",
     "static/js/2.a0e4aec0.chunk.js": "/movie-flex/static/js/2.a0e4aec0.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.646259c9.chunk.js": "/movie-flex/static/js/3.646259c9.chunk.js",
     "static/js/3.646259c9.chunk.js.map": "/movie-flex/static/js/3.646259c9.chunk.js.map",
     "index.html": "/movie-flex/index.html",
-    "static/css/main.4c17e6ed.chunk.css.map": "/movie-flex/static/css/main.4c17e6ed.chunk.css.map",
+    "static/css/main.d4f08fcd.chunk.css.map": "/movie-flex/static/css/main.d4f08fcd.chunk.css.map",
     "static/js/2.a0e4aec0.chunk.js.LICENSE.txt": "/movie-flex/static/js/2.a0e4aec0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cd711a97.js",
     "static/js/2.a0e4aec0.chunk.js",
-    "static/css/main.4c17e6ed.chunk.css",
-    "static/js/main.eda9a95b.chunk.js"
+    "static/css/main.d4f08fcd.chunk.css",
+    "static/js/main.a0337720.chunk.js"
   ]
 }
