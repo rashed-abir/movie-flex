@@ -167,6 +167,16 @@ footer{
   color: orange;
 }
 
+.homepage{
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.homepage:hover{
+  color: blue;
+}
+
 @media only screen and (max-width: 500px) {
   .search{
     width: 150px;

@@ -5,25 +5,45 @@ function MovieInfo(props) {
   const { movie } = props;
 
   return (
-    <div className="movies-info" >
-      <Descriptions title="Movie Info" bordered style={{padding:"5px", marginBottom:"5px"}} >
-        <Descriptions.Item label="Title" className="item" >
+    <div className="movies-info">
+      <Descriptions
+        title="Movie Info"
+        bordered
+        style={{ padding: "5px", marginBottom: "5px" }}
+      >
+        <Descriptions.Item label="Title" className="item">
           {movie.original_title}
         </Descriptions.Item>
         <Descriptions.Item label="release_date" className="item">
           {movie.release_date}
         </Descriptions.Item>
-        <Descriptions.Item label="revenue" className="item">{movie.revenue}</Descriptions.Item>
-        <Descriptions.Item label="runtime" className="item">{movie.runtime}</Descriptions.Item>
+        <Descriptions.Item label="revenue" className="item">
+          {movie.revenue}
+        </Descriptions.Item>
+        <Descriptions.Item label="runtime" className="item">
+          {movie.runtime}
+        </Descriptions.Item>
         <Descriptions.Item label="vote_average" span={2} className="item">
           {movie.vote_average}
         </Descriptions.Item>
         <Descriptions.Item label="vote_count" className="item">
           {movie.vote_count}
         </Descriptions.Item>
-        <Descriptions.Item label="status" className="item">{movie.status}</Descriptions.Item>
+        <Descriptions.Item label="status" className="item">
+          {movie.status}
+        </Descriptions.Item>
         <Descriptions.Item label="popularity" className="item">
           {movie.popularity}
+        </Descriptions.Item>
+        <Descriptions.Item label="homepage" className="item">
+          <a
+            href={movie.homepage}
+            target="_blank"
+            rel="noreferrer"
+            className="homepage"
+          >
+            {movie.homepage}
+          </a>
         </Descriptions.Item>
       </Descriptions>
     </div>
