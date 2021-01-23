@@ -42,7 +42,7 @@ function MovieInfo(props) {
             rel="noreferrer"
             className="homepage"
           >
-            {movie.homepage}
+            Click Here
           </a>
         </Descriptions.Item>
       </Descriptions>
