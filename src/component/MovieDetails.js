@@ -50,7 +50,7 @@ function MovieDetails() {
           <div>loading...</div>
         )}
       </div>
-      <footer>All Right Reserved to @Movie-Flex</footer>
+      <footer>Developed by @rashed</footer>
     </div>
   );
 }

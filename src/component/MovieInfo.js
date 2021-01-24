@@ -36,14 +36,18 @@ function MovieInfo(props) {
           {movie.popularity}
         </Descriptions.Item>
         <Descriptions.Item label="Home Page" className="item">
-          <a
-            href={movie.homepage}
-            target="_blank"
-            rel="noreferrer"
-            className="homepage"
-          >
-            Click Here
-          </a>
+          {movie.homepage === "" ? (
+            ""
+          ) : (
+            <a
+              href={movie.homepage}
+              target="_blank"
+              rel="noreferrer"
+              className="homepage"
+            >
+              Click Here
+            </a>
+          )}
         </Descriptions.Item>
       </Descriptions>
     </div>

@@ -24,14 +24,10 @@ function Movie({ id, title, poster_path, overview, vote_average }) {
           <img src={IMAGE_API + poster_path} alt={title} />
         </Link>
         <div className="movie-info">
-          <h3>{title}</h3>
+          <Link className="link" to={`/movie/${id}`}><h3>{title}</h3></Link>
           <span className={`tag ${setVoteClass(vote_average)}`}>
             {vote_average}
           </span>
-        </div>
-        <div className="movie-overview">
-          <h2>Overview:</h2>
-          <p> {overview} </p>
         </div>
       </div>
     </>
