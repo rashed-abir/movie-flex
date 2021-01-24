@@ -14,7 +14,7 @@ function MovieInfo(props) {
         <Descriptions.Item label="Title" className="item">
           {movie.original_title}
         </Descriptions.Item>
-        <Descriptions.Item label="Release_Date" className="item">
+        <Descriptions.Item label="Release Date" className="item">
           {movie.release_date}
         </Descriptions.Item>
         <Descriptions.Item label="Revenue" className="item">
