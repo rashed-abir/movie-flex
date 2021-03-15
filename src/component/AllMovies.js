@@ -95,7 +95,15 @@ function AllMovies() {
           Next
         </button>
       </div>
-      <footer>All Right Reserved to @Movie-Flex</footer>
+      <footer>
+        Developed by{" "}
+        <a
+          style={{ color: "#1A8DDE", textDecoration: "none" }}
+          href="https://rashed-abir.web.app/"
+        >
+          Rashed Abir
+        </a>
+      </footer>
     </div>
   );
 }
