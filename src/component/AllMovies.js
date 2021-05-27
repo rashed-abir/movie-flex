@@ -69,7 +69,7 @@ function AllMovies() {
     <div className="all-movie">
       <header>
         <h1>
-          <Link className="link" to="/movie-flex" onClick={landing}>
+          <Link className="link" to="/" onClick={landing}>
             <i className="fas fa-video icon"></i> Movie Flex
           </Link>
         </h1>
